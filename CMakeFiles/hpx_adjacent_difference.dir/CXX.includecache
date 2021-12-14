@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/karame/masterHPX/performance/adjacent/hpx_adjacent.cpp
+hpx/hpx_main.hpp
+-
+hpx/modules/algorithms.hpp
+-
+hpx/hpx.hpp
+-
+chrono
+-
+random
+-
+vector
+-
+
